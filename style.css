@@ -101,3 +101,8 @@ body {
     text-align: center;
     color: black;
 }
+
+#QR-code img {
+    width: 500px; /* Adjust this value as needed */
+    height: auto; /* This will maintain the aspect ratio of the image */
+}
