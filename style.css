@@ -1,7 +1,103 @@
-#menu
-{
-	position: fixed;
-	width: 100%;
-	height: 35px;
-	background: white;
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a9a9a9;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    height: 40px; /* Adjust this value to match the height of your navigation bar */
+
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover {
+    color: #f8f9fa; /* Add a hover effect to the links */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333; /* Change the color of the headings */
+}
+
+p {
+    line-height: 1.6; /* Add some line height to the paragraphs */
+}
+#emoji-picker {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: 2px solid #ccc; /* Add a border */
+    border-radius: 4px;
+    background-color: #f8f9fa; /* Add a background color */
+}
+
+#emoji-picker span {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid #ccc; /* Add a border to each emoji */
+    margin: 2px; /* Add some margin to each emoji */
+    border-radius: 4px; /* Round the corners of the emoji borders */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px; /* Adjust this value to match the height of your navigation bar */
+    background-color: #584747; /* Change this to match the grey color of the boxes */
+}
+
+
+#MyPhoto {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 10px;
+}
+
+#MyPhoto img {
+    height: 200px; /* Adjust this value as needed */
+    width: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#logo {
+    height: 50px; /* Adjust this value as needed */
+    width: auto; /* Adjust this value as needed */
+    object-fit: contain; /* This will ensure that your logo scales nicely to fit its container */
+    margin-right: 10px;
+}
+
+.section {
+    background-color: #d3d3d3; /* Change this to a more grey color */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px; /* This will make the corners of the squares rounded */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* This will add a shadow effect to your squares */
+    border: 2px solid red; /* This will add a red border to your boxes */
+}
+
+.photo-container {
+    display: flex;
+    overflow-x: auto;  /* Enable horizontal scroll */
+    white-space: nowrap;
+    width: 1200px; /* Adjust this value as needed for your images */
+}
+
+.photo-container img {
+    height: 200px;
+    margin-right: 10px;
+}
+
+#AboutMe h1 {
+    text-align: center;
+    color: black;
 }
