@@ -8,8 +8,7 @@ nav {
     width: 100%;
     top: 0;
     z-index: 100;
-    height: 40px; /* Adjust this value to match the height of your navigation bar */
-
+    height: 40px;
 }
 nav a {
     margin: 0 10px;
@@ -17,32 +16,32 @@ nav a {
     color: black;
 }
 nav a:hover {
-    color: #f8f9fa; /* Add a hover effect to the links */
+    color: #f8f9fa;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #333; /* Change the color of the headings */
+    color: #333;
 }
 
 p {
-    line-height: 1.6; /* Add some line height to the paragraphs */
+    line-height: 1.6;
 }
 #emoji-picker {
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
-    border: 2px solid #ccc; /* Add a border */
+    border: 2px solid #ccc;
     border-radius: 4px;
-    background-color: #f8f9fa; /* Add a background color */
+    background-color: #f8f9fa;
 }
 
 #emoji-picker span {
     cursor: pointer;
     padding: 5px;
     font-size: 20px;
-    border: 1px solid #ccc; /* Add a border to each emoji */
-    margin: 2px; /* Add some margin to each emoji */
-    border-radius: 4px; /* Round the corners of the emoji borders */
+    border: 1px solid #ccc;
+    margin: 2px;
+    border-radius: 4px;
 }
 
 body {
@@ -50,8 +49,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 60px; /* Adjust this value to match the height of your navigation bar */
-    background-color: #584747; /* Change this to match the grey color of the boxes */
+    padding-top: 60px;
+    background-color: #584747;
 }
 
 
@@ -63,33 +62,33 @@ body {
 }
 
 #MyPhoto img {
-    height: 200px; /* Adjust this value as needed */
+    height: 200px;
     width: auto;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 #logo {
-    height: 50px; /* Adjust this value as needed */
-    width: auto; /* Adjust this value as needed */
-    object-fit: contain; /* This will ensure that your logo scales nicely to fit its container */
+    height: 50px;
+    width: auto;
+    object-fit: contain;
     margin-right: 10px;
 }
 
 .section {
-    background-color: #d3d3d3; /* Change this to a more grey color */
+    background-color: #d3d3d3;
     padding: 20px;
     margin: 10px;
-    border-radius: 10px; /* This will make the corners of the squares rounded */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* This will add a shadow effect to your squares */
-    border: 2px solid red; /* This will add a red border to your boxes */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 2px solid red;
 }
 
 .photo-container {
     display: flex;
-    overflow-x: auto;  /* Enable horizontal scroll */
+    overflow-x: auto;
     white-space: nowrap;
-    width: 1200px; /* Adjust this value as needed for your images */
+    width: 1200px;
 }
 
 .photo-container img {
@@ -103,6 +102,6 @@ body {
 }
 
 #QR-code img {
-    width: 300px; /* Adjust this value as needed */
-    height: auto; /* This will maintain the aspect ratio of the image */
+    width: 300px;
+    height: auto;
 }
